@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Card, CardBody, CardHeader } from "react-simple-card";
+import Features from "./Data/features.json";
+import TileMap from "./Screens/Tiles/TileMap";
+import SplitScreen from "./Screens/Split/SplitScreen";
+import TreeMap from "./Screens/Tree/TreeMap";
+import NTreeMap from "./Screens/NTree/NTreeMap";
+import TreeData from "./Data/TreeData.json";
+import Data from "../src/Data/data";
+import data from "../src/Data/data";
+import Tree from "react-d3-tree";
 
+const dataset = TreeData;
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="AppContainer">
+      <TreeMap width={1000} height={600} data={data} />
     </div>
   );
 }

@@ -1,0 +1,32 @@
+[
+    {
+      "feature": "Spam filter",
+      "area": 0.3,
+      "risk_score": 0.8,
+      "metrics": [{ "name1": "200" }, { "name1": "100" }]
+    },
+    {
+      "feature": "Trash Folder",
+      "area": 0.3,
+      "risk_score": 0.2,
+      "metrics": [{ "name1": "400" }, { "name1": "500" }]
+    },
+    {
+      "feature": "Social feature",
+      "area": 0.2,
+      "risk_score": 0.2,
+      "metrics": [{ "name1": "value1" }, { "name1": "value2" }]
+    },
+    {
+        "feature": "Draft",
+        "area": 0.3,
+        "risk_score": 0.45,
+        "metrics": [{ "name1": "value1" }, { "name1": "value2" }]
+      },
+      {
+        "feature": "Update",
+        "area": 0.1,
+        "risk_score": 0.41,
+        "metrics": [{ "name1": "value1" }, { "name1": "value2" }]
+      }
+  ]

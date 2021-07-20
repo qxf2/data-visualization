@@ -1,0 +1,67 @@
+{
+    "children": [
+        {
+            "name": "Spam filter",
+            "value": 200,
+            "children": [
+                {
+                    "name": "mister_c",
+                    "group": "C",
+                    "weight": 78,
+                    "colname": "level3"
+                },
+                {
+                    "name": "mister_d",
+                    "group": "C",
+                    "weight": 25,
+                    "colname": "level3"
+                }
+            ],
+            "colname": "level2"
+        },
+        {
+            "name": "Trash Folder",
+            "value": 700,
+            "children": [
+                {
+                    "name": "mister_e",
+                    "group": "C",
+                    "weight": 74,
+                    "colname": "level3"
+                },
+                {
+                    "name": "mister_h",
+                    "group": "B",
+                    "weight": 92,
+                    "colname": "level3"
+                }
+            ],
+            "colname": "level2"
+        },
+        {
+            "name": "Social feature",
+            "value": 450,
+            "children": [
+                {
+                    "name": "mister_i",
+                    "group": "B",
+                    "weight": 10,
+                    "colname": "level3"
+                },
+                {
+                    "name": "mister_j",
+                    "group": "A",
+                    "weight": 13,
+                    "colname": "level3"
+                },
+                {
+                    "name": "mister_n",
+                    "group": "D",
+                    "weight": 28,
+                    "colname": "level3"
+                }
+            ],
+            "colname": "level2"
+        }
+    ]
+}
